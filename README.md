@@ -101,6 +101,14 @@
       border-radius: 12px;
       margin-top: 15px;
     }
+    
+    .warning {
+      background: rgba(239, 68, 68, 0.08);
+      border-left: 4px solid #ef4444;
+      padding: 18px;
+      border-radius: 12px;
+      margin-top: 15px;
+    }
 
     .footer {
       margin-top: 50px;
@@ -146,50 +154,48 @@
       <div class="top">
         <div class="badge">Privacidade & Segurança</div>
 
-        <h1>Política de Privacidade</h1>
+        <h1>Política de Privacidade e Termos</h1>
 
         <p>Última atualização: 8 de Maio de 2026</p>
       </div>
 
       <section>
         <p>
-          Esta Política de Privacidade descreve como o aplicativo
-          <strong>Caixa & IR</strong>
-          (“Aplicativo”, “nós”, “nosso”),
-          desenvolvido por
+          Esta Política descreve como o aplicativo <strong>Caixa & IR</strong>
+          (“Aplicativo”, “nós”, “nosso”), desenvolvido por
           <strong>Evaldo Santos • meusprogramasdigitais</strong>,
-          lida com suas informações e dados.
+          lida com suas informações, dados e estabelece os termos de responsabilidade de uso.
         </p>
 
         <div class="highlight">
-          Nosso princípio fundamental é a privacidade e a segurança financeira do usuário.
-          Nós não coletamos, não armazenamos em servidores próprios e não compartilhamos
+          Nosso princípio fundamental é a privacidade e a segurança.
+          Não coletamos, não armazenamos em servidores próprios e não compartilhamos
           seus dados financeiros ou pessoais com terceiros.
         </div>
+      </section>
+
+      <section>
+        <h2>⚖️ Isenção de Responsabilidade Legal e Fiscal</h2>
+
+        <div class="warning">
+          <p><strong>Ferramenta Independente (NÃO Governamental)</strong><br>
+          O Aplicativo é estritamente uma ferramenta de gestão financeira e <strong>NÃO representa, NÃO é afiliado, NÃO é endossado e NÃO possui nenhum vínculo com entidades governamentais</strong> (como a Receita Federal do Brasil ou Governo Federal).</p>
+        </div>
+
+        <p>Ao utilizar o Aplicativo, você concorda plenamente que:</p>
+        <ul>
+          <li><strong>Responsabilidade Total do Usuário:</strong> Todas as informações inseridas, cálculos exportados e declarações feitas a partir do aplicativo são de sua inteira responsabilidade civil, legal e fiscal.</li>
+          <li><strong>Consulte um Profissional:</strong> Os cálculos apresentados são estimativas baseadas em informações públicas. Recomendamos fortemente a consulta a um contador profissional para validar sua situação fiscal oficial.</li>
+          <li><strong>Ausência de Garantias:</strong> O desenvolvedor se isenta de qualquer responsabilidade por eventuais erros de digitação, falhas no cálculo devido à mudança de legislações, multas, juros ou desenquadramentos fiscais gerados pelo uso da ferramenta.</li>
+          <li><strong>Armazenamento e Perda de Dados:</strong> Sendo um aplicativo de funcionamento offline, não nos responsabilizamos pela perda de dados locais decorrente de quebra de dispositivo, desinstalação ou falhas no seu sistema de backup (Google Drive).</li>
+        </ul>
       </section>
 
       <section>
         <h2>📱 Coleta e Armazenamento de Dados Locais</h2>
 
         <p>
-          Todo o uso principal do Aplicativo ocorre offline.
-        </p>
-
-        <p>
-          Os dados inseridos por você, como:
-        </p>
-
-        <ul>
-          <li>Lançamentos financeiros</li>
-          <li>Faturamento</li>
-          <li>Custos fixos</li>
-          <li>Configurações do perfil</li>
-        </ul>
-
-        <p>
-          Esses dados são armazenados exclusivamente no armazenamento interno
-          do seu próprio dispositivo.
-          Nós não temos acesso a essas informações.
+          Todo o uso principal do Aplicativo ocorre offline. Os dados inseridos por você (como lançamentos, faturamento, custos fixos e configurações do perfil) são armazenados <strong>exclusivamente no armazenamento interno do seu próprio dispositivo</strong>. Nós não temos nenhum tipo de acesso a essas informações.
         </p>
       </section>
 
@@ -197,120 +203,47 @@
         <h2>☁️ Uso do Google Drive (Backup em Nuvem)</h2>
 
         <p>
-          O Aplicativo oferece uma funcionalidade opcional de backup em nuvem
-          utilizando o Google Drive do próprio usuário.
+          O Aplicativo oferece uma funcionalidade opcional de backup utilizando o Google Drive do próprio usuário.
         </p>
 
         <ul>
           <li>
-            <strong>Uso Restrito (Escopo drive.file):</strong>
-            o Aplicativo solicita apenas permissão para criar,
-            visualizar e gerenciar os arquivos que ele mesmo criou.
+            <strong>Uso Restrito:</strong> o Aplicativo solicita permissão apenas para criar e gerenciar os arquivos de backup que ele mesmo gerou.
           </li>
-
           <li>
-            O Aplicativo não possui acesso a fotos, documentos,
-            planilhas ou quaisquer outros arquivos pessoais armazenados
-            no Google Drive do usuário.
+            <strong>Isolamento:</strong> O Aplicativo não possui acesso a fotos, documentos ou outros arquivos pessoais no seu Google Drive.
           </li>
-
           <li>
-            <strong>Finalidade:</strong>
-            a conexão com o Google Drive é utilizada exclusivamente
-            para salvar o arquivo de backup financeiro
-            (exemplo:
-            <code>caixa_ir_2026.json</code>)
-            e permitir sua restauração.
-          </li>
-
-          <li>
-            <strong>Transferência e Compartilhamento:</strong>
-            nenhum dado do Google Drive é transferido para servidores
-            de terceiros ou para os desenvolvedores do Aplicativo.
+            <strong>Nenhum Compartilhamento:</strong> Nenhum dado do seu Google Drive é transferido para servidores de terceiros ou para o desenvolvedor.
           </li>
         </ul>
 
         <div class="highlight">
-          O uso das informações recebidas das APIs do Google pelo aplicativo
-          Caixa & IR obedecerá à Política de Dados do Usuário de Serviços
-          de API do Google, incluindo os requisitos de Uso Limitado.
+          O uso e a transferência de informações recebidas das APIs do Google para qualquer outro aplicativo obedecerão à <em>Política de Dados do Usuário dos Serviços de API do Google</em>, incluindo os requisitos de <em>Uso Limitado</em>.
         </div>
       </section>
 
       <section>
-        <h2>🔒 Segurança dos Dados</h2>
+        <h2>🔒 Segurança e Permissões do Dispositivo</h2>
 
         <p>
-          Como todos os dados permanecem no seu dispositivo
-          ou no seu armazenamento em nuvem pessoal,
-          a segurança também depende das proteções do seu aparelho, como:
+          Como todos os dados permanecem no seu aparelho, a segurança depende também das proteções do seu dispositivo (como senhas, biometria e a segurança da sua Conta Google).
         </p>
+        <p>
+          Para exportar relatórios, anexar fotos de recibos e ler QR Codes, o Aplicativo solicita permissões de Câmera e Armazenamento, que são executadas exclusivamente e localmente no seu sistema operacional.
+        </p>
+      </section>
 
+      <section>
+        <h2>🗑️ Exclusão de Dados</h2>
+
+        <p>
+          Você tem o controle absoluto e imediato sobre seus dados:
+        </p>
         <ul>
-          <li>Senha de bloqueio</li>
-          <li>Biometria</li>
-          <li>Autenticação em duas etapas da Conta Google</li>
-        </ul>
-      </section>
-
-      <section>
-        <h2>📂 Permissões do Dispositivo</h2>
-
-        <p>
-          Para exportar relatórios em PDF ou CSV,
-          o Aplicativo pode utilizar as funções nativas de compartilhamento
-          do sistema operacional.
-        </p>
-
-        <p>
-          Isso é utilizado estritamente para permitir que você envie arquivos
-          para si mesmo ou para seu contador, sob seu total controle.
-        </p>
-      </section>
-
-      <section>
-        <h2>🚫 Compartilhamento de Dados</h2>
-
-        <p>
-          Nós não vendemos, alugamos ou trocamos nenhum tipo de dado.
-        </p>
-
-        <p>
-          Como os desenvolvedores não possuem acesso às informações inseridas
-          no Aplicativo, é tecnicamente impossível compartilhar seus dados
-          financeiros com empresas de publicidade,
-          corretores de dados ou terceiros.
-        </p>
-      </section>
-
-      <section>
-        <h2>🗑️ Direitos do Usuário (Exclusão de Dados)</h2>
-
-        <p>
-          Você possui total controle sobre seus dados.
-        </p>
-
-        <ul>
-          <li>
-            Acesse o menu de Configurações do Aplicativo
-            e selecione
-            <strong>“Limpar Todos os Dados”</strong>.
-          </li>
-
-          <li>
-            Caso utilize backup em nuvem,
-            você pode apagar o arquivo diretamente pelo Google Drive.
-          </li>
-
-          <li>
-            Também é possível desconectar o Aplicativo nas configurações
-            de segurança da sua Conta Google.
-          </li>
-
-          <li>
-            Ao desinstalar o Aplicativo,
-            os dados locais são automaticamente removidos pelo sistema operacional.
-          </li>
+          <li>Ao desinstalar o Aplicativo, todos os dados locais são imediatamente apagados pelo seu sistema celular.</li>
+          <li>Você pode usar o botão "Limpar Dados" dentro do menu de Configurações.</li>
+          <li>Se houver um backup no Google Drive, você pode apagá-lo manualmente acessando o seu próprio Drive.</li>
         </ul>
       </section>
 
@@ -318,13 +251,7 @@
         <h2>🔄 Alterações nesta Política</h2>
 
         <p>
-          Esta Política de Privacidade poderá ser atualizada periodicamente.
-        </p>
-
-        <p>
-          Caso ocorram mudanças significativas,
-          você será notificado através de um aviso
-          dentro do próprio Aplicativo.
+          Esta Política poderá ser atualizada para refletir melhorias ou exigências legais. Quando houver mudanças significativas, o Aplicativo avisará em suas notas de versão ou notificações internas.
         </p>
       </section>
 
@@ -332,9 +259,7 @@
         <h2>📧 Contato</h2>
 
         <p>
-          Caso tenha dúvidas, sugestões ou solicitações relacionadas
-          a esta Política de Privacidade,
-          entre em contato:
+          Caso tenha dúvidas ou precise de esclarecimentos sobre esta Política, entre em contato:
         </p>
 
         <p>
